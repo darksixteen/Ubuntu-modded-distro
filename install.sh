@@ -129,7 +129,7 @@ EOF
 ubuntu
 rm $CHROOT/home/ubuntu/.bashrc
 mv $CHROOT/home/ubuntu/.bashrc.bak $CHROOT/home/ubuntu/.bashrc
-wget -O $(find $CHROOT/home/ubuntu/.mozilla/firefox -name *.default-esr)/user.js https://raw.githubusercontent.com/TecnicalBot/modded-distro/main/fixes/user.js
+wget -O $(find $CHROOT/home/ubuntu/.mozilla/firefox -name *.default-esr)/user.js https://raw.githubusercontent.com/darksixteen/modded-distro/main/fixes/user.js
 }
 
 final_banner(){
